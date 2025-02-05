@@ -14,8 +14,8 @@ const Home = () => {
                 </div>
                 <h2 className='mt-5 text-black'>For better service download now</h2>
                 <div className='button flex gap-2'>
-                    <button className="btn bg-black text-white">App Store</button>
-                    <button className="btn bg-black text-white">Google Play</button>
+                    <button className="w-28"><img className='w-full h-auto' src="../src/assets/AppStoreBlack.png" alt="" /></button>
+                    <button className="w-28"><img className='w-full h-auto' src="../src/assets/googlePlay.png" alt="" /></button>
                 </div>
                 
             </div>
