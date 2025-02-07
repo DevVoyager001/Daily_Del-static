@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ scrollToHome, scrollToAbout, scrollToCategories, scrollToContactUs }) => {
   return (
     <div>
     <div className="navbar bg-base-100 shadow-sm fixed z-50 top-0">
@@ -12,22 +12,22 @@ const Header = () => {
                 <ul
                     tabIndex={0}
                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                   <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Categories</a></li>
-                    <li><a>Contact Us</a></li>
+                   <li><a onClick={(e) => { e.preventDefault(); scrollToHome(); }}>Home</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToAbout(); }}>About Us</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToCategories(); }}>Categories</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToContactUs(); }}>Contact Us</a></li>
                 </ul>
                 </div>
-                <a className="btn btn-ghost text-xl"><img className='w-32 h-auto' src="../src/assets/dailyDelLogo-removebg.png" alt="" /></a>
+                <a className="btn btn-ghost text-xl"><img className='w-32 h-auto' src="../src/assets/dailyDelLogo-removebg.png" onClick={(e) => { e.preventDefault(); scrollToHome(); }} alt="" /></a>
             </div>
 
             <div className="navbar-end">
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Categories</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToHome(); }}>Home</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToAbout(); }}>About Us</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToCategories(); }}>Categories</a></li>
+                    <li><a onClick={(e) => { e.preventDefault(); scrollToContactUs(); }}>Contact Us</a></li>
                     </ul>
                 </div>
                 <a className="btn bg-[#C43758] text-white hover:text-black">Get the App</a>

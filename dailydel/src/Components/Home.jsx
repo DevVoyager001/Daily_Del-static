@@ -22,7 +22,7 @@ const Home = () => {
 
             <div className="w-3"></div>
 
-            <div className="card  rounded-box w-fit h-fit flex place-items-center py-11">
+            <div className="card rounded-box w-fit h-fit flex place-items-center py-11">
                 <img className='w-[700px] h-auto' src="../src/assets/homeBgImg.png" alt="" />
             </div>
         </div>
