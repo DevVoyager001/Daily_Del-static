@@ -1,6 +1,11 @@
 import React from 'react'
 
 const ContactUs = () => {
+
+    function handleSubmit(e){
+        e.preventDefault();
+    }
+
   return (
     <div className='flex flex-col md:flex-row items-center justify-center gap-5 p-10'>
         <div className='w-[90%] md:w-[50%]'>
@@ -45,7 +50,7 @@ const ContactUs = () => {
                 </div>
                 <textarea className="textarea textarea-bordered h-24" name="question" placeholder="Your message"></textarea>
             </label>
-            <button type='submit' className="btn mt-2 w-full bg-[#B51957] text-white">Send</button>
+            <button type='submit' onClick={handleSubmit} className="btn mt-2 w-full bg-[#B51957] text-white">Send</button>
         </form>
     </div>
   )
