@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+    const navigate = useNavigate();
   return (
     <div className='mt-20 p-5'>
         <div className="flex w-full flex-col lg:flex-row">
@@ -9,8 +11,8 @@ const Home = () => {
                 <h1 className='text-4xl md:text-6xl font-bold' style={{ wordSpacing: "3px" }} >Bringing Joy to Your <br/> Doorstep, <span className='text-[#C43758]'>Every Day!</span></h1>
                 <h2 className='text-sm'>One Stop for all your Essentials! Delivered in Just 15 mins.</h2>
                 <div className='button flex gap-4'>
-                    <button className="btn bg-[#C43758] text-white rounded-full w-fit px-10">Get Started</button>
-                    <button className="btn bg-white border border-[#C43758] text-[#C43758] rounded-full w-fit px-10">Learn more</button>
+                    <button className="btn bg-[#C43758] text-white rounded-full w-fit px-10" onClick={()=>{navigate("/about")}}>Get Started</button>
+                    <button className="btn bg-white border border-[#C43758] text-[#C43758] rounded-full w-fit px-10" onClick={()=>{navigate("/contact")}}>Learn more</button>
                 </div>
                 <h2 className='mt-5 text-black'>For better service download now</h2>
                 <div className='button flex gap-2'>

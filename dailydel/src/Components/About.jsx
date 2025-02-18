@@ -29,8 +29,8 @@ const About = () => {
                 />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title">2.25 Million</h2>
-                <p>Orders Delivered</p>
+                <h2 className="card-title">100+</h2>
+                <p>Orders Delivered & Counting</p>
             </div>
         </div>
 
@@ -43,8 +43,8 @@ const About = () => {
                  />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title">1.5 Million</h2>
-                <p>Happy Customers</p>
+                <h2 className="card-title">100+</h2>
+                <p>Happy Customers & Growing!</p>
             </div>
         </div>
 
@@ -57,8 +57,8 @@ const About = () => {
                 />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title">150,000+</h2>
-                <p>Shops Partnered</p>
+                <h2 className="card-title">50+</h2>
+                <p>Shops Partnered, Expanding Daily!</p>
             </div>
         </div>
 
@@ -71,8 +71,8 @@ const About = () => {
                  />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title">20,000+</h2>
-                <p>Delivery Partners</p>
+                <h2 className="card-title">20+</h2>
+                <p>Delivery Partners Ready to Serve!</p>
             </div>
         </div>
     </div>
