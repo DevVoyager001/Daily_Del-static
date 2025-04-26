@@ -32,7 +32,14 @@ const Header = ({ scrollToHome, scrollToAbout, scrollToCategories, scrollToConta
               <li><a onClick={(e) => { e.preventDefault(); scrollToContactUs(); }}>Contact Us</a></li>
             </ul>
           </div>
-          <a className="btn bg-[#C43758] text-white hover:text-black">Get the App</a>
+          <a 
+            href="https://play.google.com/store/apps/details?id=com.DailyDel" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn bg-[#C43758] text-white hover:text-black hover:bg-[#d45d7a] transition-colors duration-300"
+          >
+            Get the App
+          </a>
         </div>
       </div>
     </div>

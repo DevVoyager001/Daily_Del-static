@@ -16,8 +16,31 @@ const Home = () => {
                 </div>
                 <h2 className='mt-5 text-black'>For better service download now</h2>
                 <div className='button flex gap-2'>
-                    <button className="w-28"><img className='w-full h-auto' src="/assets/AppStoreBlack.png" alt="" /></button>
-                    <button className="w-28"><img className='w-full h-auto' src="/assets/googlePlay.png" alt="" /></button>
+                <a 
+                href="https://apps.apple.com/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-28"
+                >
+                <img 
+                    className='w-full h-auto' 
+                    src="/assets/AppStoreBlack.png" 
+                    alt="Download on the App Store" 
+                />
+                </a>
+
+                <a 
+                href="https://play.google.com/store/apps/details?id=com.DailyDel" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-28"
+                >
+                <img 
+                    className='w-full h-auto' 
+                    src="/assets/googlePlay.png" 
+                    alt="Download on the App Store" 
+                />
+                </a>
                 </div>
                 
             </div>
