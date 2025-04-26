@@ -8,7 +8,7 @@ const About = () => {
             <figure>
                 <img
                 className='w-[400px] md:w-[500px] rounded-xl'
-                src="../src/assets/aboutImg.png"
+                src="/assets/aboutImg.svg"
                 alt="Album" />
             </figure>
             <div className="card-body md:w-[500px] mt-auto mb-auto">
@@ -19,12 +19,12 @@ const About = () => {
         </div>
     </div>
 
-    <div className='flex flex-col md:flex-row flex-wrap m-8 items-center justify-center gap-5'>
+    <div className='flex flex-col justify-center md:flex-row flex-wrap md:m-8 items-center md:justify-center gap-5'>
         <div className="card shadow-sm bg-[#F3F4F6] w-[296px] h-[302px]">
             <figure className="px-10 pt-10">
                 <img
                 className='w-20 h-auto rounded-xl'
-                src="../src/assets/aboutImg1.png"
+                src="/assets/aboutImg1.png"
                 alt="Shoes"
                 />
             </figure>
@@ -38,7 +38,7 @@ const About = () => {
             <figure className="px-10 pt-10">
                 <img
                 className='w-20 h-auto rounded-xl'
-                src="../src/assets/aboutImg2.png"
+                src="/assets/aboutImg2.png"
                 alt="Shoes"
                  />
             </figure>
@@ -52,7 +52,7 @@ const About = () => {
             <figure className="px-10 pt-10">
                 <img
                 className='w-20 h-auto rounded-xl'
-                src="../src/assets/aboutImg3.png"
+                src="/assets/aboutImg3.png"
                 alt="Shoes"
                 />
             </figure>
@@ -66,7 +66,7 @@ const About = () => {
             <figure className="px-10 pt-10">
                 <img
                 className='w-20 h-auto rounded-xl'
-                src="../src/assets/courier-boy.png"
+                src="/assets/courier-boy.png"
                 alt="Shoes"
                  />
             </figure>

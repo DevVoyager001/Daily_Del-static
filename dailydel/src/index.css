@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light only; /* Blocks iOS dark mode */
+  supported-color-schemes: light only; /* Fallback for older browsers */
+}
+
+body {
+  background-color: white !important; /* Force white background */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensures full coverage */
+  -webkit-tap-highlight-color: transparent; /* Removes iOS tap highlight */
+  -webkit-font-smoothing: antialiased; /* Improves font rendering */
+}
+
+/* Optional: Reset Tailwind's default dark mode (if enabled) */
+@media (prefers-color-scheme: dark) {
+  :root, body {
+    color-scheme: light only !important;
+    background-color: white !important;
+  }
+}

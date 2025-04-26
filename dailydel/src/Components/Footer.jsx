@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
         <footer className="footer bg-[#F3F4F6] p-10">
             <aside>
-                <a className="btn btn-ghost text-xl"><img className='w-32 h-auto' src="../src/assets/dailyDelLogo-removebg.png" alt="" /></a>
+                <a className="btn btn-ghost text-xl"><img className='w-32 h-auto' src="/assets/dailyDelLogo-removebg.png" alt="" /></a>
                 <p className='text-sm'>
                 © 2024 All rights reserved
                 </p>

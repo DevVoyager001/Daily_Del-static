@@ -58,32 +58,32 @@ const ContactUs = () => {
         </p>
         <div className='divider p-3'></div>
         <div className='flex gap-2'>
-          <img className='text-sm' src="../src/assets/bxs_phone-call.svg" alt="" />
+          <img className='text-sm' src="/assets/bxs_phone-call.svg" alt="" />
           <h1 className='text-sm'>support@dailydel.com</h1>
         </div>
         <div className='flex gap-2 mt-1 text-[#434343] text-sm'>
-          <img className='text-sm' src="../src/assets/Vector.svg" alt="" />
+          <img className='text-sm' src="/assets/Vector.svg" alt="" />
           <h1>+91 9769163207</h1>
         </div>
       </div>
 
       {/* Form */}
-      <form ref={formRef} onSubmit={handleSubmit} className='w-[90%] md:w-[50%]'>
+      <form ref={formRef} onSubmit={handleSubmit} className='w-[100%] md:w-[50%]'>
         <label className="form-control">
           <div className="label">
             <span className="label-text">Your name</span>
           </div>
           <input type="text" name="name" placeholder="Your name" className="input input-bordered w-full" required />
         </label>
-        <div className='flex gap-2 w-[100%]'>
-          <label className="form-control w-[50%]">
+        <div className='flex flex-col md:flex-row gap-2 w-[100%]'>
+          <label className="form-control w-full md:w-[50%]">
             <div className="label">
               <span className="label-text">Email</span>
             </div>
             <input type="email" name="email" placeholder="Email address" className="input input-bordered w-full" required />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
           </label>
-          <label className="form-control w-[50%]">
+          <label className="form-control w-full md:w-[50%]">
             <div className="label">
               <span className="label-text">Phone</span>
             </div>

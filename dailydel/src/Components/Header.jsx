@@ -19,7 +19,7 @@ const Header = ({ scrollToHome, scrollToAbout, scrollToCategories, scrollToConta
             </ul>
           </div>
           <a className="btn btn-ghost text-xl" onClick={(e) => { e.preventDefault(); scrollToHome(); }}>
-            <img className="w-32 h-auto" src="../src/assets/dailyDelLogo-removebg.png" alt="" />
+            <img className="w-28 md:w-32 h-auto" src="/assets/dailyDelLogo-removebg.png" alt="" />
           </a>
         </div>
 
