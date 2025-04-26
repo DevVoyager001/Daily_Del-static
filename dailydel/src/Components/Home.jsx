@@ -5,7 +5,7 @@ const Home = () => {
     const navigate = useNavigate();
   return (
     <div className='mt-20 p-5'>
-        <div className="flex w-full flex-col lg:flex-row">
+        <div className="flex w-full flex-col-reverse lg:flex-row">
             <div className="card  rounded-box h-fit flex-grow p-5 gap-4">
                 <div className=' w-fit h-fit text-sm bg-red-400 rounded-full px-[5px]'><h1>Online delivery service</h1></div>
                 <h1 className='text-4xl md:text-6xl font-bold' style={{ wordSpacing: "3px" }} >Bringing Joy to Your <br/> Doorstep, <span className='text-[#C43758]'>Every Day!</span></h1>
