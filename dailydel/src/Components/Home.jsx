@@ -17,7 +17,7 @@ const Home = () => {
                 <h2 className='mt-5 text-black'>For better service download now</h2>
                 <div className='button flex gap-2'>
                 <a 
-                href="https://apps.apple.com/" 
+                href="https://apps.apple.com/in/app/daily-del/id6741804142" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-28"
